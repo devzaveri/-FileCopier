@@ -1,2 +1,29 @@
 # -FileCopier
 In this File Copier program we can copy our files exactly like Windows file copy mechanism.
+
+here is some description of the code,
+
+firstly we import java.io for File Input / output process.
+
+java use the concept of stream to make I/O fast. The reason to use Stream is for the good flow of data.
+
+java have in-built feture to input / output files.
+
+we use FileInputStream to input file and FileOutputStream to output the file or data.
+
+Then we create two new objects for Input and Output and we gave the path form where we input that file and where we want that file as an output.
+
+then we create one int c for storing data.
+
+then we take while loop till the end. till -1. using .read().
+parallelly we use .Write() to write the data.
+
+after this we simply print "File Copied" to conferm that our data is printed successfully.
+
+
+
+in above code we opened the file so the space is occupied so we have to empty that space for that we have to close all the files.
+
+we use finally key-word to automatically execute the code all the time.
+
+we use if contadtion if file is not null then close that file because if the file is null then they doesn't occupied any space and also if the output file is not null then close that file.
