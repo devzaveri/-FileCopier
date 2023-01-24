@@ -1,57 +1,52 @@
 
 import java.io.*;
-
+import java.util.*;
 
 public class pc1st {
 
-	
-	public static void main(String[] args)
-		throws IOException
-	{
+    public static void main(String[] args)
+            throws IOException {
 
-		
-		FileInputStream FI = null;
-		FileOutputStream FO = null;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter the InputPath");
+        String inputPath = s.nextLine();
+        System.out.println("Enter the OutputPath");
+        String outputPath = s.nextLine();
+        System.out.println("Enter File Name:-");
+        String fileName = s.nextLine();
+        System.out.println("Enter Output File Name:-");
+        String OutputFile = s.nextLine();
 
-		
-		try {
+        FileInputStream FI = null;
+        FileOutputStream FO = null;
 
-			
-			FI = new FileInputStream(
-				"C:\\Users\\promact\\Desktop\\java PC\\t.txt");
+        try {
 
-			
-			FO = new FileOutputStream(
-				"C:\\Users\\promact\\Desktop\\java PC\\tx.txt");
+            FI = new FileInputStream(inputPath + "\\" + fileName);
 
-			int c;
+            FO = new FileOutputStream(outputPath + "\\" + OutputFile);
+            int c;
 
-			
-			while ((c = FI.read()) != -1) {
+            while ((c = FI.read()) != -1) {
 
-				
-				FO.write(c);
-			}
+                FO.write(c);
 
-			System.out.println(
-				"File Copied");
-		}
+            }
 
-		
-		finally {
+            System.out.println(
+                    "File Copied");
+        }
 
-			
+        finally {
 
-			if (FI != null) {
+            if (FI != null) {
 
-				
-				FI.close();
-			}
-			if (FO != null) {
+                FI.close();
+            }
+            if (FO != null) {
 
-				
-				FO.close();
-			}
-		}
-	}
+                FO.close();
+            }
+        }
+    }
 }
