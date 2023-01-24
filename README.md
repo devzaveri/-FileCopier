@@ -29,3 +29,8 @@ in above code we opened the file so the space is occupied so we have to empty th
 we use finally key-word to automatically execute the code all the time.
 
 we use if contadtion if file is not null then close that file because if the file is null then they doesn't occupied any space and also if the output file is not null then close that file.
+
+
+<h3> Output</h3>
+![Static](https://user-images.githubusercontent.com/84063889/214253372-28b8d890-fd0b-4f2a-abe7-036307048ea1.png)
+
