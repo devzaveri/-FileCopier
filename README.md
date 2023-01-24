@@ -9,7 +9,9 @@ java use the concept of stream to make I/O fast. The reason to use Stream is for
 
 java have in-built feture to input / output files.
 
-we use FileInputStream to input file and FileOutputStream to output the file or data.
+we use FileInputStream to input file and FileOutputStream to output the file or data.]
+
+here we use throws IOException keyword because it gives an information to the programmer that there may occur an exception.
 
 Then we create two new objects for Input and Output and we gave the path form where we input that file and where we want that file as an output.
 
