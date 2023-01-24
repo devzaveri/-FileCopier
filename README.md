@@ -34,4 +34,6 @@ we use if contadtion if file is not null then close that file because if the fil
 
 <h3> Output</h3>
 
-![Screenshot (3)](https://user-images.githubusercontent.com/84063889/214253493-8b505889-7b7a-45d3-a548-54d364e770bc.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/84063889/214263111-d1523499-6f8a-42d5-b7e6-1a121ecf4949.png)
+
+![Screenshot (6)](https://user-images.githubusercontent.com/84063889/214263245-7a851bce-f7a6-419d-bc44-d7edffdc2ab6.png)
