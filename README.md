@@ -32,5 +32,5 @@ we use if contadtion if file is not null then close that file because if the fil
 
 
 <h3> Output</h3>
-![Static](https://user-images.githubusercontent.com/84063889/214253372-28b8d890-fd0b-4f2a-abe7-036307048ea1.png)
 
+![Screenshot (3)](https://user-images.githubusercontent.com/84063889/214253493-8b505889-7b7a-45d3-a548-54d364e770bc.png)
